@@ -9,9 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 
-#define EXT_POWER_OFF_CMD EP_OFF
-#define EXT_POWER_ON_CMD EP_ON
-#define EXT_POWER_TOGGLE_CMD EP_TOG
 
 / {
         keymap {
