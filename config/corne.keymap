@@ -42,7 +42,7 @@
    &kp LCTRL &trans    &trans  &trans    &trans    &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp PIPE &kp GRAVE
    &trans &trans &trans &trans &trans &trans      &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
    &kp LSHFT  &ext_power EP_OFF       &ext_power EP_ON       &ext_power EP_TOG       &trans       &trans            &ext_power EP_OFF   &ext_power EP_ON   &trans &trans    &trans &trans
-                                        &kp LBRC     &trans       &kp RET         &kp SPACE &ADJUST &kp RBRC
+                                        &kp LBRC     &trans       &kp RET         &kp SPACE &mo 3 &kp RBRC
                         >;
                 };
 
