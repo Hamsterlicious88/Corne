@@ -16,8 +16,9 @@
 #define RAISE  2
 #define ADJUST 3
 
+
 / {
-	behaviors {
+		behaviors {
 		ht: hold_tap {
 			compatible = "zmk,behavior-hold-tap";
 			label = "Hold Tap";
@@ -28,7 +29,6 @@
 		};
 	};
 
-/ {
         keymap {
                 compatible = "zmk,keymap";
 
