@@ -15,6 +15,8 @@
 #define LOWER   1
 #define RAISE   2
 #define ADJUST  3
+#define ext_power ep
+#define EP_TOG etog
 
 / {
 	keymap {
@@ -46,12 +48,12 @@
                                    &trans &trans &kp SPACE  &kp BSLH &trans &mo 3
                         >;
                 };
-				
+				c
                 adjust_layer {
                         bindings = <
    &kp LCTRL &trans    &trans  &trans    &trans    &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp PIPE &kp GRAVE
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
-   &kp LSHFT  &ext_power EP_OFF  &ext_power EP_ON  &ext_power EP_TOG  &out OUT_USB &out OUT_BLE &trans &trans &trans &trans    &trans &trans
+   &kp LSHFT  &trans  &trans  &ep etog  &out OUT_USB &out OUT_BLE &trans &trans &trans &ep etog &trans &trans
                                    &kp LGUI &trans &kp SPACE   &kp RET &trans &kp RALT
                         >;
                 };
